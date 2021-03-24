@@ -1,10 +1,10 @@
-Segundo projeto complementar Newtab Academy para uma página web com design responsivo. Utilizando HTML5, CSS3 e o Grid System do Bootstrap 3. Baseado no Teste para candidatos à vaga de desenvolvedor Front-end na Folha de S.Paulo.
-
-
-
-
   _            _   _         _     _  __  
+ | |_    ___  | | | |  ___  | |   (_) \ \ 
+ | ' \  / -_) | | | | / _ \ |_|    _   | |
+ |_||_| \___| |_| |_| \___/ (_)   ( )  | |
+                                  |/  /_/ 
 
+Teste para candidatos à vaga de desenvolvedor Front-end na Folha de S.Paulo
 
 Instruções:
 
@@ -37,7 +37,7 @@ Atenção:
 
 Suporte de Browsers: IE9+, Chrome, Safari, Firefox.
 
-Links Úteis:
+Úteis:
 
 Grid:
 http://getbootstrap.com/css/#grid
@@ -47,3 +47,6 @@ https://color.adobe.com/pt/teste-folha-web-color-theme-6584765/
 
 Mussum Ipsum (gerador de lorem ipsum do Mussum):
 http://mussumipsum.com/
+
+
+Boa sorte!
