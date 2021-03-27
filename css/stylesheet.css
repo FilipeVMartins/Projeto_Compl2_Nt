@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    background-color: #ECF0F1;
+    font-family: Helvetica, Sans-Serif;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+main {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    max-width: 1300px;
+}
+
+main header {
+    width: 100%;
+    max-width: 1300px;
+    background-color: #2980B9; /* a cor nos layouts está diferente da sugerida na paleta fornecida*/
+    position: fixed;
+    top: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 110px;
+}
+
+main header > * {
+    margin-top: 10px;
+}
+
+main header div.menu{
+    padding: 20px;
+}
+
+main header .header-center {
+    display: flex;
+    flex-direction: row;
+    color: #D0F2FF;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+main header .header-center h1 {
+    display: none;
+}
+
+main header address {
+    display: none;
+}
+
+
+
+
+
+
+
+main .page-content {
+    margin-top: 90px;
+    background-color: lightsalmon;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+main .page-content > * {
+    background-color: lightslategrey;
+    margin: 10px;
+    display: flex;
+}
+
+
+
+
+
+
+
+
+main footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+main footer > * {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 12px;
+    box-sizing: border-box;
+    color: #D0F2FF;
+}
+
+main footer .backtotop {
+    background-color: #3498DB;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+main footer .backtotop h4 {
+    margin: 0px 7px;
+}
+
+main footer .backtotop img {
+    display: block;
+    object-fit: none;
+    margin-top: -2px;
+}
+
+
+
+
+main footer .copyright {
+    background-color: #2C3E50;
+}
+
+main footer .copyright img {
+    display: none;
+}
+
+main footer .copyright p a {
+    color: #D0F2FF;
+}
+
