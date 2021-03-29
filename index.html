@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
     <head>
         <meta charset="UTF-8"/>
         <meta name="author"             content="FilipeVMartins">
@@ -14,7 +14,7 @@
         <title>Projeto Complementar 2</title>
         <link rel="icon" type="" href="">
 
-
+        <link rel="stylesheet" href="css/bootstrap-grid.css">
         <link rel="stylesheet" href="css/stylesheet.css">
 
 
@@ -27,11 +27,11 @@
     <body>
         <main>
             <header>
-                <div class="menu">
+                <div class="menu col-3">
                     <img class="menu-icon" class="header-logo" src="slices/mobile/menu-icon.png" alt="Logo">
                 </div>
 
-                <div class="header-center">
+                <div class="header-center col-6">
                     <img class="header-logo" src="slices/mobile/logo.png" alt="Logo">
                     <h1 class="main-header">
                         O site de teste para novos webs
@@ -39,7 +39,7 @@
 
                 </div>
 
-                <address class="social-media">
+                <address class="social-media col-3">
                     <a>Social link</a>
                     <a>Social link</a>
                 </address>
@@ -49,21 +49,47 @@
 
 
             <div class="page-content">
-                <section class="carousel">
 
+                <section class="carousel col-12">
+                    <div class="slideshow-content">
+                        <div class="slide">
+                            <figure>
+                                <!-- <img class="slide-image" src="slices/mobile/image_rotate.png" alt="Slide 1"> -->
+                                <div class="img"></div>
+                                <figcaption><h3 class="slide-title">MUSSUM IPSUM CACILDS</h3></figcaption>
+                            </figure>
+                            <p class="slide-description">Pra lá, depois divoltis porris, paradis.</p>
+                        </div>
+                    </div>
+
+                    <div class="pointer col-12">
+                        <div class="dot active"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                    </div>
                 </section>
 
 
 
                 <section class="topcacildis">
-                    <h2 class="topcacildis-heading"></h2>
+                    <h2 class="topcacildis-heading">top cacilds</h2>
                     <div class="topcacildis-content">
                         <figure>
-                            <img src="pic_trulli.jpg" alt="Trulli" style="width:100%">
-                            <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
+                            <div class="img" id="highlight01"></div>
+                            <figcaption>PINDURETA</figcaption>
+                        </figure>
+                        <figure>
+                            <div class="img" id="highlight02"></div>
+                            <figcaption>BOLIS</figcaption>
+                        </figure>
+                        <figure>
+                            <div class="img" id="highlight03"></div>
+                            <figcaption>SAPIEN</figcaption>
                         </figure>
                     </div>
                 </section>
+                
+
                 
                 <section class="divoltisporris">
                     <h2 class="divoltisporris-heading"></h2>
