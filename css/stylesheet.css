@@ -8,6 +8,7 @@ body {
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
+    line-height: 1.2rem;
 }
 
 main {
@@ -84,7 +85,7 @@ main header address a {
 
 
 main .page-content {
-    background-color: lightsalmon;
+    background-color: #ECF0F1;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -92,7 +93,7 @@ main .page-content {
     padding: 10px;
 }
 main .page-content > * {
-    background-color: lightslategrey;
+    /*background-color: lightslategrey; */
     margin-bottom: 10px;
     box-sizing: border-box;
 }
@@ -102,6 +103,8 @@ main .page-content > * {
 
 
 
+
+/* start section carousel*/
 main .page-content section.carousel {
     display: flex;
     flex-direction: column;
@@ -109,6 +112,7 @@ main .page-content section.carousel {
     width: 100%;
     height: auto;
     z-index: 0;
+    margin-bottom: 30px;
 }
 
 main .page-content section.carousel div.slideshow-content {
@@ -163,9 +167,9 @@ main .page-content section.carousel div.slideshow-content div.slide h3{
     z-index: 9;
 }
 
-main .page-content section.carousel div.slideshow-content div.slide p{
+main .page-content section.carousel div.slideshow-content div.slide p.slide-description{
     position: relative;
-    color: #2980B9;
+    color: #2C3E50;
     font-weight: bolder;
     font-size: larger;
     margin: 10px 0px;
@@ -177,8 +181,8 @@ main .page-content section.carousel div.pointer {
 }
 main .page-content section.carousel div.pointer div.dot {
     cursor: pointer;
-    height: 10px;
-    width: 10px;
+    height: 9px;
+    width: 9px;
     margin: 0 2px;
     background-color: #9B9B9B;
     border-radius: 50%;
@@ -197,20 +201,18 @@ main .page-content section.carousel div.pointer div.dot:hover {
 
 
 
-
-
-
+/* start section topcacildis*/
+main .page-content section.topcacildis {
+    padding: 0px;
+}
 
 main .page-content section.topcacildis h2 {
     display: none;
 }
 
 main .page-content section.topcacildis div.topcacildis-content figure{
-    margin-bottom: 10px;
-}
-
-main .page-content section.topcacildis div figure {
     position: relative;
+    margin-bottom: 10px;
 }
 
 main .page-content section.topcacildis div figure div.img{
@@ -264,6 +266,242 @@ main .page-content section.topcacildis div figure div.img#highlight03 + figcapti
 
 
 
+/* start section divoltisporris*/
+main .page-content section.divoltisporris {
+    padding: 0px;
+}
+
+main .page-content section.divoltisporris h2 {
+    padding: 0px;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+main .page-content section.divoltisporris div.divoltisporris-content article{
+    position: relative;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid lightgray;
+}
+
+main .page-content section.divoltisporris div.divoltisporris-content article figure.img{
+    width: 100%;
+    background-color: lightgray;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-top: 61.0795%; /* Mobile Aspect Ratio */
+}
+
+main .page-content section.divoltisporris div.divoltisporris-content article figure.img#divoltis01{
+    background-image: url("../slices/mobile/divoltis-porris-01.png");
+}
+main .page-content section.divoltisporris div.divoltisporris-content article figure.img#divoltis02{
+    background-image: url("../slices/mobile/divoltis-porris-02.png");
+}
+main .page-content section.divoltisporris div.divoltisporris-content article figure.img#divoltis03{
+    background-image: url("../slices/mobile/divoltis-porris-03.png");
+}
+main .page-content section.divoltisporris div.divoltisporris-content article figure.img#divoltis04{
+    background-image: url("../slices/mobile/divoltis-porris-04.png");
+}
+
+main .page-content section.divoltisporris div.divoltisporris-content article h3 {
+    font-weight: normal;
+    color: #2980B9;
+    font-size: small;
+}
+
+
+
+
+
+
+
+/* start section pfes-links*/
+main .page-content section.pfes-links {
+    padding: 0;
+}
+
+main .page-content section.pfes-links h2 {
+    color: #3498DB;
+    font-weight: normal;
+    font-size: 20px;
+    margin: 10px 0px;
+}
+
+main .page-content section.pfes-links nav {
+    display: flex;
+    flex-direction: column;
+}
+
+main .page-content section.pfes-links nav a {
+    color: black;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 10px 0px;
+    border-bottom: 1px solid lightgray;
+}
+
+main .page-content section.pfes-links nav a:hover {
+    text-decoration: underline;
+}
+
+main .page-content section.pfes-links nav a:last-of-type {
+    border-bottom: none;
+}
+
+
+
+
+
+
+
+/* start section sepirulita*/
+main .page-content section.sepirulita {
+    padding: 0;
+}
+
+main .page-content section.sepirulita h2 {
+    color: #E84B39;
+    font-weight: normal;
+    font-size: 20px;
+    margin: 10px 0px;
+}
+
+main .page-content section.sepirulita article{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+main .page-content section.sepirulita div.sepirulita-content article figure.img{
+    width: 100%;
+    background-color: lightgray;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-top: 50%; /* Mobile Aspect Ratio */
+}
+
+main .page-content section.sepirulita div.sepirulita-content article figure.img#pirulita01{
+    background-image: url("../slices/mobile/se_pirulita-01.png");
+}
+main .page-content section.sepirulita div.sepirulita-content article figure.img#pirulita02{
+    background-image: url("../slices/mobile/se_pirulita-02.png");
+}
+
+main .page-content section.sepirulita article div{
+    margin-left: 15px;
+    width: 100%;
+}
+
+main .page-content section.sepirulita article div h3{
+    color: #E84B39;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 10px 0px;
+}
+
+main .page-content section.sepirulita article div p{
+    margin: 0px;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+/* start section sucodecevadiss*/
+main .page-content section.sucodecevadiss {
+    padding: 0;
+}
+
+main .page-content section.sucodecevadiss h2 {
+    color: #E84B39;
+    font-weight: normal;
+    font-size: 20px;
+    margin: 10px 0px;
+}
+
+main .page-content section.sucodecevadiss article{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+main .page-content section.sucodecevadiss div.sucodecevadiss-content article figure.img{
+    width: 100%;
+    background-color: lightgray;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-top: 50%; /* Mobile Aspect Ratio */
+}
+
+main .page-content section.sucodecevadiss div.sucodecevadiss-content article figure.img#cevadiss01{
+    background-image: url("../slices/mobile/suco_de_cevadiss-01.png");
+}
+main .page-content section.sucodecevadiss div.sucodecevadiss-content article figure.img#cevadiss02{
+    background-image: url("../slices/mobile/suco_de_cevadiss-02.png");
+}
+
+main .page-content section.sucodecevadiss article div{
+    margin-left: 15px;
+    width: 100%;
+}
+
+main .page-content section.sucodecevadiss article div h3{
+    color: #E84B39;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 10px 0px;
+}
+
+main .page-content section.sucodecevadiss article div p{
+    margin: 0px;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+/* start section sucodecevadiss*/
+main .page-content section.banner {
+    width: 62.66%;
+    margin-bottom: 200px;
+    align-self: center;
+
+}
+
+main .page-content section.banner h6.banner-heading {
+    color: lightgray;
+    margin: 0px;
+    text-align: end;
+}
+
+main .page-content section.banner div.banner-img{
+    width: 100%;
+    background-image: url("../slices/mobile/ads-300x250.png");
+    background-color: lightgray;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-top: 83.3333%; /* Mobile Aspect Ratio */
+}
+
+
+
 
 
 main footer {
@@ -291,6 +529,7 @@ main footer .backtotop {
 main footer .backtotop h4 {
     margin: 0px 7px;
     font-weight: normal;
+    font-size: 14px;
 }
 
 main footer .backtotop img {
@@ -308,6 +547,10 @@ main footer .copyright {
 
 main footer .copyright img {
     display: none;
+}
+
+main footer .copyright p {
+    font-size: 12px;
 }
 
 main footer .copyright p a {
