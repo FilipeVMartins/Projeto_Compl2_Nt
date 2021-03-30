@@ -1,0 +1,170 @@
+/*Mobile first: 375 x 667 // extra_small-mobile */
+
+
+
+
+
+
+
+/* 576 x 768 // small_devices-tablet */
+@media screen and (min-width: 576px){
+    
+    main .page-content {
+        padding: 45px 30px 30px 30px; /*top right bottom left */
+    }
+
+    main header div.menu img {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        background-image: url("../slices/tablet/menu-icon.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        padding-top: 84%; /* Tablet Aspect Ratio */
+    }
+
+
+    main header .header-center div.logo-wrapper {
+        width: calc(140px + 2.7%);
+    }
+
+    main header .header-center img {
+        width: 100%;/*
+        min-width: 100px;
+        max-width: 230px;*/
+        background-image: url("../slices/tablet/logo.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        padding-top: 40.2010%; /* Tablet Aspect Ratio */
+    }
+
+    main header .header-center h1 {
+        display: block;
+        font-size: 12px;
+        align-self: flex-end;
+        margin-left: 10px;
+        font-weight: normal;
+    }
+
+    main header .header-center h1 strong {
+        font-weight: bolder;
+    }
+
+    main header address{
+        justify-content: flex-end;
+        align-self: flex-end;
+        margin-bottom: 15px;
+        /*width: 10%; !important*/
+    }
+
+    main header address div.social-icon {
+        /*width: 41.6666%;
+        max-width: 30px;*/
+        width: calc(29px + 2.7%);
+        margin-right: 10px;
+    }
+    main header address a {
+        display: block;
+        background-color: #D0F2FF;
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        padding-top: 100%; /* Mobile Aspect Ratio */
+        margin: 0px;
+    }
+    main header address a.facebook-icon{
+        background-image: url("../slices/tablet/facebook-icon.png");
+    }
+    main header address a.twitter-icon{
+        background-image: url("../slices/tablet/twitter-icon.png");
+    }
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+/* max:1300 x "2652" // medium_to_large_devices-desktop */
+@media screen and (min-width: 1300px){
+
+    main .page-content {
+        padding: 75px 80px 80px 80px; /*top right bottom left */
+    }
+
+    main header {
+        position: relative;
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+
+    main header div.menu {
+        padding: 0px;
+    }
+    main header div.menu div.menu-wrapper {
+        width: calc(46px + 2.7%);
+    }
+
+    main header div.menu img {
+        background-image: url("../slices/desktop/menu-icon.png");
+    }
+
+
+    main header .header-center div.logo-wrapper {
+        width: calc(207px + 2.7%);
+    }
+
+    main header .header-center img {
+        background-image: url("../slices/desktop/logo.png");
+        padding-top: 41.1764%; /* Desktop Aspect Ratio */
+    }
+
+    main header .header-center h1 {
+        font-size: 16px;
+        margin-left: 15px;
+        margin-bottom: 3.5%;
+    }
+
+    main header address{
+        justify-content: flex-end;
+        align-self: center;
+        margin-bottom: 15px;
+        margin-left: 0px;
+    }
+
+    main header address div.social-icon {
+        width: calc(84px + 2.7%);
+        margin-right: 0px;
+    }
+
+    main header address div.social-icon:first-of-type {
+        margin-right: 30px;
+    }
+
+    main header address a {
+        background-color: #D0F2FF;
+        padding-top: 38.8888%; /* Desktop Aspect Ratio */
+    }
+    main header address a.facebook-icon{
+        background-image: url("../slices/desktop/facebook-icon.png");
+    }
+    main header address a.twitter-icon{
+        background-image: url("../slices/desktop/twitter-icon.png");
+    }
+}

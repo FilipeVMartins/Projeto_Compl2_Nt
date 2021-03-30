@@ -16,6 +16,7 @@
 
         <link rel="stylesheet" href="css/bootstrap-grid.css">
         <link rel="stylesheet" href="css/stylesheet.css">
+        <link rel="stylesheet" href="css/mediaqueries_stylesheet.css">
 
 
         <style>
@@ -27,21 +28,29 @@
     <body>
         <main>
             <header>
-                <div class="menu col-3">
-                    <img class="menu-icon" class="header-logo" src="slices/mobile/menu-icon.png" alt="Logo">
+                <div class="menu col-3 col-sm-2">
+                    <div class="menu-wrapper">
+                        <img class="menu-icon" alt="">
+                    </div>
                 </div>
 
-                <div class="header-center col-6">
-                    <img class="header-logo" src="slices/mobile/logo.png" alt="Logo">
+                <div class="header-center col-6 col-sm-8">
+                    <div class="logo-wrapper">
+                        <img class="header-logo"  alt="">
+                    </div>
                     <h1 class="main-header">
-                        O site de teste para novos webs
+                        O site de teste para <strong>novos webs</strong>
                     </h1>
 
                 </div>
 
-                <address class="social-media col-3">
-                    <a>Social link</a>
-                    <a>Social link</a>
+                <address class="social-media col-3 col-sm-2">
+                    <div class="social-icon  ">
+                        <a class="facebook-icon" href="https://www.facebook.com/folhadesp/" rel="external" target="_blank"></a>
+                    </div>
+                    <div class="social-icon  ">
+                        <a class="twitter-icon" href="https://twitter.com/folha" rel="external" target="_blank"></a>
+                    </div>
                 </address>
 
             </header>
@@ -194,10 +203,12 @@
 
 
 
-            <footer>
+            <footer class="footer col-12">
                 <div class="backtotop">
-                    <h4> VOLTAR AO TOPO </h4>
-                    <img src="slices/mobile/arrow_top-icon.png" alt="Ícone Topo">
+                    <div class="backtotop-wrapper">
+                        <h4> VOLTAR AO TOPO </h4>
+                        <img src="slices/mobile/arrow_top-icon.png" alt="Ícone Topo">
+                    </div>
                 </div>
                 <div class="copyright">
                     <img class="footer-logo" src="slices/mobile/logo.png" alt="Logo">
