@@ -21,7 +21,7 @@ main {
 main header {
     width: 100%;
     max-width: 1300px;
-    background-color: #2980B9; /* a cor nos layouts está diferente da sugerida na paleta fornecida*/
+    background-color: #3199DC; /* #2980B9 é a cor da palheta, achei muito escura, usei color picker nos layouts /* a cor nos layouts está diferente da sugerida na paleta fornecida*/
     position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0px;
@@ -594,10 +594,11 @@ main footer .backtotop img {
 }
 
 main footer .copyright {
+    width: 100%;
     background-color: #2C3E50;
 }
 
-main footer .copyright img {
+main footer .copyright .footer-logo-wrapper {
     display: none;
 }
 
