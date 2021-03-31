@@ -163,7 +163,8 @@ main .page-content section.carousel div.slideshow-content {
     justify-content: center;
     width: 100%;
     height: auto;
-    overflow: hidden;
+    overflow: visible; /* oculta as arrows*/
+    position: relative;
 }
 
 main .page-content section.carousel div.slideshow-content div.slide{
@@ -207,6 +208,7 @@ main .page-content section.carousel div.slideshow-content div.slide h3{
     position: absolute;
     bottom: 15px;
     z-index: 9;
+    font-weight: normal;
 }
 
 main .page-content section.carousel div.slideshow-content div.slide p.slide-description{

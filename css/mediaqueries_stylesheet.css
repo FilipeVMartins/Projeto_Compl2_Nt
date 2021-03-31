@@ -91,6 +91,50 @@
 
 
 
+    main .page-content section.carousel div.slideshow-content div.slide div.img{
+        background-image: url("../slices/tablet/image_rotate.png");
+        padding-top: 60%; /* Tablet Aspect Ratio */
+    }
+
+    main .page-content section.carousel div.slideshow-content div.slide h3{
+        bottom: 85px;
+        left: 15px;
+    }
+
+    main .page-content section.carousel div.slideshow-content div.slide p.slide-description{
+        position: absolute;
+        bottom: 15px;
+        left: 15px;
+        color: white;
+        line-height: 1.3em;
+    }
+    main .page-content section.carousel div.slideshow-content div.slide p.slide-description::after{
+        content: "\Apaisis, filhis, espiritis santis";
+        white-space: pre;
+    }
+
+    main .page-content section.carousel div.pointer {
+        margin-top: 15px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -218,6 +262,128 @@
     main header address a.twitter-icon{
         background-image: url("../slices/desktop/twitter-icon.png");
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    main .page-content section.carousel div.slideshow-content div.slide div.img{
+        background-image: url("../slices/desktop/image_rotate.png");
+        padding-top: 39.5083%; /* Desktop Aspect Ratio */
+    }
+
+    main .page-content section.carousel div.slideshow-content div.slide h3{
+        bottom: 100px;
+        left: 25px;
+        width: 290px;
+        font-size: 16px;
+    }
+
+    main .page-content section.carousel div.slideshow-content div.slide p.slide-description{
+        bottom: 25px;
+        left: 25px;
+        font-size: 22px;
+    }
+
+    main .page-content section.carousel div.slideshow-content div.arrows{
+        width: 105%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    main .page-content section.carousel div.slideshow-content div.arrow-wrapper{
+        position: relative;
+        width: 60px;
+        height: 60px;
+        padding: 10px 15px;
+        background-color: white;
+        border-radius: 50%;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        cursor: pointer;
+    }
+    main .page-content section.carousel div.slideshow-content div.arrow-wrapper:hover {
+        background-color: lightgray;
+    }
+    main .page-content section.carousel div.slideshow-content div.arrow_left-icon{
+        width: 100%;
+        background-image: url("../slices/desktop/arrow_left-icon.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        /*padding-top: 148%; /* Desktop Aspect Ratio */
+        width: 25px;
+        height: 37px;
+        margin: auto; /* com 'margin-right:auto' acho que ficaria melhor*/
+    }
+    main .page-content section.carousel div.slideshow-content div.arrow_right-icon{
+        width: 100%;
+        background-image: url("../slices/desktop/arrow_right-icon.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        /*padding-top: 148%; /* Desktop Aspect Ratio */
+        width: 25px;
+        height: 37px;
+        margin: auto; /* com 'margin-left:auto' acho que ficaria melhor*/
+    }
+
+    main .page-content section.carousel div.pointer {
+        margin-top: 20px;
+    }
+
+    main .page-content section.carousel div.pointer div.dot {
+        cursor: pointer;
+        height: 10px;
+        width: 10px;
+        margin: 0 5px;
+        background-color: #9B9B9B;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     main footer .copyright .footer-logo-wrapper {
         margin-right: 70px;
