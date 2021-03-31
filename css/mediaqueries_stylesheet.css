@@ -517,6 +517,7 @@
         width: 78%;
     }
     main .page-content section.banner div.banner-img {
+        background-image: none;
         background-image: url("../slices/desktop/ads-300x600.png");
         padding-top: 200%; /* Desktop Aspect Ratio */
     }
