@@ -1,3 +1,12 @@
+html, body {
+    /*max-width: 100%;*/
+    overflow-x: hidden; /* hides and prevents horizontal functionality. */
+}
+
+html::-webkit-scrollbar, body::-webkit-scrollbar {
+    display: none; /* only hides the scroll bars, x and y. */
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -132,6 +141,7 @@ main .page-content {
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-between;
+    position: relative;
     padding: 40px 10px 10px 10px; /*top right bottom left */
 }
 main .page-content > * {
@@ -148,6 +158,7 @@ main .page-content > * {
 
 /* start section carousel*/
 main .page-content section.carousel {
+    order: 1;
     display: flex;
     flex-direction: column;
     padding: 0px;
@@ -247,11 +258,21 @@ main .page-content section.carousel div.pointer div.dot:hover {
 
 /* start section topcacildis*/
 main .page-content section.topcacildis {
+    order: 2;
+    position: relative;
     padding: 0px;
 }
 
 main .page-content section.topcacildis h2 {
+    position: relative;
     display: none;
+}
+
+main .page-content section.topcacildis div.topcacildis-content{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
 }
 
 main .page-content section.topcacildis div.topcacildis-content figure{
@@ -296,12 +317,15 @@ main .page-content section.topcacildis div figure figcaption{
 
 main .page-content section.topcacildis div figure div.img#highlight01 + figcaption{
     width: 28.6931%;
+    min-width: 112px;
 }
 main .page-content section.topcacildis div figure div.img#highlight02 + figcaption{
     width: 35.7954%;
+    min-width: 86px;
 }
 main .page-content section.topcacildis div figure div.img#highlight03 + figcaption{
     width: 44.034%;
+    min-width: 97px;
 }
 
 
@@ -312,6 +336,7 @@ main .page-content section.topcacildis div figure div.img#highlight03 + figcapti
 
 /* start section divoltisporris*/
 main .page-content section.divoltisporris {
+    order: 3;
     padding: 0px;
 }
 
@@ -319,6 +344,12 @@ main .page-content section.divoltisporris h2 {
     padding: 0px;
     font-weight: normal;
     font-size: 20px;
+}
+
+main .page-content section.divoltisporris div.divoltisporris-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
 }
 
 main .page-content section.divoltisporris div.divoltisporris-content article{
@@ -354,7 +385,13 @@ main .page-content section.divoltisporris div.divoltisporris-content article fig
 main .page-content section.divoltisporris div.divoltisporris-content article h3 {
     font-weight: normal;
     color: #2980B9;
-    font-size: small;
+    font-size: 13px;
+    margin-top: 8px;
+    margin-bottom: 4px;
+}
+
+main .page-content section.divoltisporris div.divoltisporris-content article p {
+    margin-top: 0px;
 }
 
 
@@ -365,6 +402,7 @@ main .page-content section.divoltisporris div.divoltisporris-content article h3 
 
 /* start section pfes-links*/
 main .page-content section.pfes-links {
+    order: 4;
     padding: 0;
 }
 
@@ -404,6 +442,7 @@ main .page-content section.pfes-links nav a:last-of-type {
 
 /* start section sepirulita*/
 main .page-content section.sepirulita {
+    order: 5;
     padding: 0;
 }
 
@@ -420,6 +459,12 @@ main .page-content section.sepirulita article{
     margin-bottom: 20px;
 }
 
+main .page-content section.sepirulita div.sepirulita-content article .img-wrapper{
+    position: relative;
+    width: 100%;
+    margin: 0;
+}
+
 main .page-content section.sepirulita div.sepirulita-content article figure.img{
     width: 100%;
     background-color: lightgray;
@@ -427,7 +472,7 @@ main .page-content section.sepirulita div.sepirulita-content article figure.img{
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    padding-top: 50%; /* Mobile Aspect Ratio */
+    padding-top: 100%; /* Mobile Aspect Ratio */
 }
 
 main .page-content section.sepirulita div.sepirulita-content article figure.img#pirulita01{
@@ -446,7 +491,8 @@ main .page-content section.sepirulita article div h3{
     color: #E84B39;
     font-size: 14px;
     font-weight: normal;
-    margin: 10px 0px;
+    margin: 6px 0px;
+    margin-bottom: 3px;
 }
 
 main .page-content section.sepirulita article div p{
@@ -463,6 +509,7 @@ main .page-content section.sepirulita article div p{
 
 /* start section sucodecevadiss*/
 main .page-content section.sucodecevadiss {
+    order: 6;
     padding: 0;
 }
 
@@ -479,6 +526,12 @@ main .page-content section.sucodecevadiss article{
     margin-bottom: 20px;
 }
 
+main .page-content section.sucodecevadiss div.sucodecevadiss-content article .img-wrapper{
+    position: relative;
+    width: 100%;
+    margin: 0;
+}
+
 main .page-content section.sucodecevadiss div.sucodecevadiss-content article figure.img{
     width: 100%;
     background-color: lightgray;
@@ -486,7 +539,7 @@ main .page-content section.sucodecevadiss div.sucodecevadiss-content article fig
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    padding-top: 50%; /* Mobile Aspect Ratio */
+    padding-top: 100%; /* Mobile Aspect Ratio */
 }
 
 main .page-content section.sucodecevadiss div.sucodecevadiss-content article figure.img#cevadiss01{
@@ -505,7 +558,8 @@ main .page-content section.sucodecevadiss article div h3{
     color: #E84B39;
     font-size: 14px;
     font-weight: normal;
-    margin: 10px 0px;
+    margin: 6px 0px;
+    margin-bottom: 3px;
 }
 
 main .page-content section.sucodecevadiss article div p{
@@ -519,8 +573,10 @@ main .page-content section.sucodecevadiss article div p{
 
 
 
-/* start section sucodecevadiss*/
+/* start section banner*/
 main .page-content section.banner {
+    position: relative;
+    order: 7;
     width: 62.66%;
     margin-top: 40px;
     margin-bottom: 115px;

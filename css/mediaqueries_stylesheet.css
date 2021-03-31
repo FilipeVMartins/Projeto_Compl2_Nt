@@ -1,16 +1,16 @@
 /*Mobile first: 375 x 667 // extra_small-mobile */
 
 
-
-
-
-
-
 /* 576 x 768 // small_devices-tablet */
 @media screen and (min-width: 576px){
     
     main .page-content {
+        flex-direction: row;
         padding: 45px 30px 30px 30px; /*top right bottom left */
+    }
+
+    main .page-content > * {
+        margin-bottom: 20px;
     }
 
     main header div.menu img {
@@ -119,20 +119,94 @@
 
 
 
+    main .page-content section.topcacildis div.topcacildis-content {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    main .page-content section.topcacildis div.topcacildis-content figure {
+        width: 31%;
+    }
+
+    main .page-content section.topcacildis div figure figcaption{
+        bottom: 10px;
+    }
 
 
 
+    main .page-content section.divoltisporris div.divoltisporris-content {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    main .page-content section.divoltisporris div.divoltisporris-content article{
+        width: 48%;
+        padding: 0px;
+    }/*62.1513*/
 
 
 
+    main .page-content section.pfes-links {
+        width: 95%;
+    }
+
+    main .page-content section.pfes-links h2 {
+
+    }
+
+    main .page-content section.pfes-links nav {
+        width: 96%;
+        
+    }
+
+    main .page-content section.pfes-links nav a {
+        color: black;
+        font-size: 14px;
+        text-decoration: none;
+        padding: 10px 0px;
+        padding-right: 15%;
+    }
 
 
 
+    main .page-content section.sepirulita {
+        display: flex;
+        flex-direction: column;
+    }
+
+    main .page-content section.sepirulita h2 {
+        position: relative;
+        left: 4%;
+    }
+
+    main .page-content section.sepirulita div.sepirulita-content {
+        width: 96%;
+        align-self: flex-end;
+    }
 
 
 
+    main .page-content section.banner {
+        margin-top: 0px;
+    }
 
+    main .page-content section.banner h6.banner-heading {
+        margin-left: 7.5%; /* maneira de alinhamento 1*/
+        margin-right: 7.5%;
+    }
 
+    main .page-content section.banner div.banner-wrapper {
+        width: 85%;
+        margin: auto;
+    }
+
+    main .page-content section.banner div.banner-img {
+        background-image: url("../slices/tablet/ads-300x250.png");
+        padding-top: 82.9493%; /* Tablet Aspect Ratio */
+    }
 
 
 
@@ -173,22 +247,10 @@
         margin: 0px;
         align-self: center;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
+
+
+
 
 
 
@@ -200,7 +262,12 @@
 @media screen and (min-width: 1200px){
 
     main .page-content {
+        flex-direction: row;
         padding: 75px 80px 80px 80px; /*top right bottom left */
+    }
+
+    main .page-content > * {
+        margin-bottom: 35px;
     }
 
     main header {
@@ -268,19 +335,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-    
 
     main .page-content section.carousel div.slideshow-content div.slide div.img{
         background-image: url("../slices/desktop/image_rotate.png");
@@ -365,19 +419,107 @@
 
 
 
+      main .page-content section.topcacildis h2 {
+        display: unset;
+        font-weight: normal;
+        font-size: 26px;
+    }
+
+    main .page-content section.topcacildis div figure figcaption{
+        bottom: 20px;
+    }
 
 
 
+    main .page-content section.divoltisporris h2 {
+        font-size: 26px;
+    }
+    main .page-content section.divoltisporris div.divoltisporris-content article h3 {
+        font-size: 15px;
+    } /* 59.7222 */
 
 
 
+    main .page-content section.pfes-links {
+        width: 95%;
+    }
+
+    main .page-content section.pfes-links h2 {
+
+    }
+
+    main .page-content section.pfes-links nav {
+        width: 96%;
+        
+    }
+
+
+    main .page-content section.pfes-links h2 {
+        font-size: 26px;
+    }
 
 
 
+    main .page-content section.sepirulita {
+        display: flex;
+        flex-direction: column;
+    }
+
+    main .page-content section.sepirulita h2 {
+        position: relative;
+        left: 4%;
+        font-size: 26px;
+        margin-bottom: 15px;
+    }
+
+    main .page-content section.sepirulita div.sepirulita-content {
+        width: 96%;
+        align-self: flex-end;
+    }
 
 
 
+    main .page-content section.sucodecevadiss {
+        display: flex;
+        flex-direction: column;
+    }
 
+    main .page-content section.sucodecevadiss h2 {
+        position: relative;
+        left: 4%;
+        font-size: 26px;
+        margin-bottom: 15px;
+    }
+
+    main .page-content section.sucodecevadiss div.sucodecevadiss-content {
+        width: 96%;
+        align-self: flex-end;
+    }
+
+
+
+    main .page-content section.banner {
+        order: 3;
+        margin-top: 40px; /* readicionar o margin 40 tirado na v tablet */
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    main .page-content section.banner h6.banner-heading {
+        position: relative;/* maneira de alinhamento 2*/
+        margin: 0px;
+        left: 31%;
+    }
+
+    main .page-content section.banner div.banner-wrapper {
+        width: 78%;
+    }
+    main .page-content section.banner div.banner-img {
+        background-image: url("../slices/desktop/ads-300x600.png");
+        padding-top: 200%; /* Desktop Aspect Ratio */
+    }
 
 
 
@@ -391,7 +533,7 @@
 
     main footer .copyright .footer-logo-wrapper img.footer-logo {
         background-image: url("../slices/desktop/logo_footer.png");
-        padding-top: 40.9090%; /* Tablet Aspect Ratio */
+        padding-top: 40.9090%; /* Desktop Aspect Ratio */
     }
 
     main footer .copyright p {
