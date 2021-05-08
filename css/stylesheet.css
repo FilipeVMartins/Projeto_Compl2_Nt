@@ -178,9 +178,10 @@ main .page-content section.carousel div.slideshow-content {
     position: relative;
 }
 
-main .page-content section.carousel div.slideshow-content div.slide{
+main .page-content section.carousel div.slideshow-content div.slide {
     position: relative;
     width: 100%;
+    display: none;
 }
 
 /* all non-specified figure tags*/
@@ -203,6 +204,14 @@ main .page-content section.carousel div.slideshow-content div.slide div.img{
     background-size: cover;
     position: relative;
     padding-top: 61.0795%; /* Mobile Aspect Ratio */
+}
+
+main .page-content section.carousel div.slideshow-content div.slide.slide2 div.img{
+    background-image: url("../slices/tablet/image_rotate2.png");
+}
+
+main .page-content section.carousel div.slideshow-content div.slide.slide3 div.img{
+    background-image: url("../slices/tablet/image_rotate3.png");
 }
 
 main .page-content section.carousel div.slideshow-content div.slide h3{

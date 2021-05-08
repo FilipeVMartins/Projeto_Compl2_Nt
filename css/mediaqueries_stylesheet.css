@@ -108,8 +108,18 @@
         color: white;
         line-height: 1.3em;
     }
-    main .page-content section.carousel div.slideshow-content div.slide p.slide-description::after{
+
+    /* the three slides extra texts on full sized screens */
+    main .page-content section.carousel div.slideshow-content div.slide:nth-child(1) p.slide-description::after{
         content: "\Apaisis, filhis, espiritis santis";
+        white-space: pre;
+    }
+    main .page-content section.carousel div.slideshow-content div.slide:nth-child(2) p.slide-description::after{
+        content: "\AVivamus sit amet nibh non tellus tristique";
+        white-space: pre;
+    }
+    main .page-content section.carousel div.slideshow-content div.slide:nth-child(3) p.slide-description::after{
+        content: "\A Detraxit consequat et quo num tendi nada";
         white-space: pre;
     }
 
