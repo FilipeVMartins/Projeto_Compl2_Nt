@@ -1,5 +1,7 @@
 ### Descrição
-Segundo projeto complementar de 'HTML, CSS e JavaScript' da Newtab Academy para uma página web com design responsivo, feito pensando em mobile first e utilizando HTML5, CSS3, Grid System do Bootstrap. Foi baseado no Teste para candidatos à vaga de desenvolvedor Front-end na Folha de S.Paulo. Também utilizei Javascript puro com POO para adicionar funcionalidade ao carousel e as images foram adicionadas utilizando a técnica de 'background-image' com uma div externa com padding-top em porcentagem calculada para mater a proporção original do arquivo em diferentes tamanhos de div.
+Segundo projeto complementar de 'HTML, CSS e JavaScript' da Newtab Academy para uma página web com design responsivo, feito pensando em mobile first e utilizando HTML5, CSS3, Grid System do Bootstrap. Foi baseado no Teste para candidatos à vaga de desenvolvedor Front-end na Folha de S.Paulo.
+
+Utilizei Javascript puro com POO para adicionar funcionalidade ao carousel e as images foram adicionadas utilizando a técnica de 'background-image' com uma div externa com padding-top em porcentagem calculada para mater a proporção original do arquivo em diferentes tamanhos de div.
 
 Deploy:
 https://projeto-folha-filipevmartins.netlify.app/
